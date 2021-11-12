@@ -31,7 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.ShowBill = new System.Windows.Forms.Button();
             this.InsertBill = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.ViewRevenue = new System.Windows.Forms.Button();
             this.Exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -67,15 +67,16 @@
             this.InsertBill.UseVisualStyleBackColor = true;
             this.InsertBill.Click += new System.EventHandler(this.InsertBill_Click);
             // 
-            // button3
+            // ViewRevenue
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.button3.Location = new System.Drawing.Point(198, 227);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(124, 42);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Thống kê doanh thu";
-            this.button3.UseVisualStyleBackColor = true;
+            this.ViewRevenue.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.ViewRevenue.Location = new System.Drawing.Point(198, 227);
+            this.ViewRevenue.Name = "ViewRevenue";
+            this.ViewRevenue.Size = new System.Drawing.Size(124, 42);
+            this.ViewRevenue.TabIndex = 3;
+            this.ViewRevenue.Text = "Thống kê doanh thu";
+            this.ViewRevenue.UseVisualStyleBackColor = true;
+            this.ViewRevenue.Click += new System.EventHandler(this.ViewRevenue_Click);
             // 
             // Exit
             // 
@@ -94,7 +95,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(551, 335);
             this.Controls.Add(this.Exit);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.ViewRevenue);
             this.Controls.Add(this.InsertBill);
             this.Controls.Add(this.ShowBill);
             this.Controls.Add(this.label1);
@@ -110,7 +111,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button ShowBill;
         private System.Windows.Forms.Button InsertBill;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button ViewRevenue;
         private System.Windows.Forms.Button Exit;
     }
 }

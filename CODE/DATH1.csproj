@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MonthlyRevenue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonthlyRevenue.Designer.cs">
+      <DependentUpon>MonthlyRevenue.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthlyRevenue.resx">
+      <DependentUpon>MonthlyRevenue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ShowBill.resx">
       <DependentUpon>ShowBill.cs</DependentUpon>

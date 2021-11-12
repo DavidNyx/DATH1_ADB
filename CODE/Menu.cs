@@ -43,5 +43,13 @@ namespace DBSM_Project
             conn.ShowDialog();
             this.Close();
         }
+
+        private void ViewRevenue_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MonthlyRevenue conn = new MonthlyRevenue();
+            conn.ShowDialog();
+            this.Close();
+        }
     }
 }

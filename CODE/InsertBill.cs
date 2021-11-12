@@ -17,40 +17,6 @@ namespace DBSM_Project
             InitializeComponent();
         }
 
-        /*private void button1_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (sqlCon == null)
-                {
-                    sqlCon = new SqlConnection(connString);
-                }
-
-                if (sqlCon.State == ConnectionState.Closed)
-                {
-                    sqlCon.Open();
-                    MessageBox.Show("Kết nối thành công");
-                }
-            }
-            catch(Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            if (sqlCon != null && sqlCon.State == ConnectionState.Open)
-            {
-                sqlCon.Close();
-                MessageBox.Show("Đóng kết nối thành công");
-            }
-            else
-            {
-                MessageBox.Show("Không đóng kết nối được");
-            }
-        }*/
-
         private void InsertData_Click(object sender, EventArgs e)
         {
             

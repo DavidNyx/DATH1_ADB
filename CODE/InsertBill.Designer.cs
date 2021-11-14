@@ -172,7 +172,7 @@
             this.Controls.Add(this.Back);
             this.Controls.Add(this.BillEnter);
             this.Name = "InsertBill";
-            this.Text = "Menu";
+            this.Text = "InsertBill";
             this.BillEnter.ResumeLayout(false);
             this.BillEnter.PerformLayout();
             this.ResumeLayout(false);
